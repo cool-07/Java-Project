@@ -33,12 +33,14 @@ public class Hangman {
                        arr.set(i,letter);
                    }
                }
+
                 if (!arr.contains('_')){
                     System.out.println(getHangmanArt(wrongGuess));
                     System.out.println("You Won");
                     System.out.println("the corredt word is "+ s);
                     break;
                 }
+
                System.out.println(arr);
 
            }
